@@ -79,3 +79,19 @@ button {
    padding: 5px 12px;
    cursor: pointer;
 }
+
+
+@media (max-width: 800px) {
+   main {
+      flex-direction: column;
+   }
+
+   main form {
+      width: 100%;
+   }
+
+   main article {
+      width: 100%;
+   }
+   
+}
